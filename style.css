@@ -1,0 +1,32 @@
+h1,h2 {
+    color: #fff;
+    font-size: 3vh;
+    letter-spacing: 0.2vw;
+    font-family: fantasy;
+    top: calc(50vh - 1em);
+    position: relative;
+    border: 3px solid #FFF;
+    padding: 0.8em;
+    width: min-content;
+    display: block;
+    margin: 0 auto;
+    text-decoration: underline;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+h1 {
+    top: calc(47vh - 1em);
+    border: none !important;
+    width: fit-content;
+}
+
+h1:hover {
+    color: coral;
+    border: 5px solid crimson;
+    transition: 0.5s;
+}
+
+body {
+    background: skyblue;
+}
